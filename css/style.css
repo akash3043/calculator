@@ -1,0 +1,67 @@
+#mainDiv {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #DFD8D0;
+  padding: 20px;
+  border-radius: 3%;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px
+}
+
+#mainViewBox {
+  background-color: #C3C2AB;
+  margin: 10px;
+  height: 100px;
+  border-radius: 5%;
+  padding:5px
+}
+
+.viewBox {
+  margin: 0px;
+}
+
+#viewInput {
+  word-wrap: break-word;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px
+}
+
+.btn.equal {
+  height: 110px;
+  border-radius: 10%
+}
+
+.btn.zero {
+  width: 115px;
+  border-radius: 10%
+}
+
+.btnSplDesign {
+  background-color: #A72D45;
+}
+
+.btnSplBorder {
+  border-radius: 5%
+}
+
+button {
+  background-color: #3A3A3A;
+}
+
+.btn:hover, .btn:focus,.btn:active{
+  color: white;
+  outline:none;
+ }
+
+button:active, button:hover button:active{
+  color: white;
+  outline:none
+ }
